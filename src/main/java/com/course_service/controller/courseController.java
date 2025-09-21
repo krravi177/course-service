@@ -1,5 +1,6 @@
 package com.course_service.controller;
 
+
 import com.course_service.dto.Course;
 import com.course_service.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/courses")
-public class CourseController {
+public class courseController {
 
     @Autowired
     private CourseService courseService;
