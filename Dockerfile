@@ -3,7 +3,7 @@ FROM openjdk:17
 # Set working directory inside the container
 LABEL maintainer="Ravindra"
 # Copy the compiled Java application JAR file into the container
-COPY ./target/course-service-0.0.1-SNAPSHOT.jar course-service.jar
+COPY ./target/course-service.jar course-service.jar
 # Expose the port the Spring Boot application will run on
 EXPOSE 8080
 # Command to run the application
